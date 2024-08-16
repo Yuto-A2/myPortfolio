@@ -1,8 +1,7 @@
 import AboutList from "../components/AboutList"
 import {useEffect} from "react"
 import "../components/Home.css"
-
-
+// about page
 export default function AboutListPage() {
   useEffect(() => {
     document.title = "About | Yuto-A"

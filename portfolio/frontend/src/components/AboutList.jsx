@@ -1,8 +1,7 @@
 import {useState, useEffect} from "react";
-
 export default function AboutList() {
   const [portfolios, setPortfolios] = useState([]);
-
+// this rought get the life event for about page from the database
   useEffect(() => {
     const getPortfolios = async () => {
       let response = await fetch("http://localhost:8888/api/about");
@@ -12,7 +11,7 @@ export default function AboutList() {
     }
     getPortfolios();
   }, []);
-
+  // show life event
   return (
     <table className="aboutTable">
       <tr>
@@ -27,7 +26,6 @@ export default function AboutList() {
             </tr>
           ))
         }
-      
   </table>
   );
 }

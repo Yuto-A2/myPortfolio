@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 let contactArray = [
   {
     from: "test@gmail.com",
@@ -10,7 +9,7 @@ let contactArray = [
     to: "test@gmail.com"
   }
 ];
-
+// this is for sending email. Users can send an email from the form.
 export default function Contact() {
   const [contacts, setContacts] = useState(contactArray);
 

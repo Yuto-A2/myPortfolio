@@ -1,3 +1,4 @@
+// get the photos of my works from the database.
 import {useState, useEffect} from "react";
 export default function Works() {
   const [works, setWorks] = useState([]);
@@ -10,7 +11,6 @@ useEffect(() => {
   }
   getWorks();
 }, []);
-
 return (
   <>
       <h2 className="subTitle">Works</h2>
