@@ -21,7 +21,7 @@ export default function Contact() {
       userEmail: e.target.userEmail.value,
       userMsg: e.target.userMsg.value
     };
-    await fetch(`https://my-portfolio-backend-chi.vercel.app/api/work/api/email?userName=${contactForm.userName}&userEmail=${contactForm.userEmail}&userMsg=${contactForm.userMsg}`);
+    await fetch(`https://my-portfolio-backend-chi.vercel.app/api/email?userName=${contactForm.userName}&userEmail=${contactForm.userEmail}&userMsg=${contactForm.userMsg}`);
   }
     return(
         <>
