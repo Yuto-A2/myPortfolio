@@ -4,7 +4,7 @@ export default function Works() {
   const [works, setWorks] = useState([]);
 useEffect(() => {
   const getWorks = async () => {
-    let response = await fetch("http://localhost:8888/api/work");
+    let response = await fetch(`http://${process.env.REACT_APP_API_URL}/api/work`);
     let data = await response.json();
     console.log(data);
     setWorks(data);
