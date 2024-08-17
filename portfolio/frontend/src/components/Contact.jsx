@@ -21,7 +21,7 @@ export default function Contact() {
       userEmail: e.target.userEmail.value,
       userMsg: e.target.userMsg.value
     };
-    await fetch(`http://${process.env.REACT_APP_API_URL}/api/email?userName=${contactForm.userName}&userEmail=${contactForm.userEmail}&userMsg=${contactForm.userMsg}`);
+    await fetch(`https://${process.env.REACT_APP_API_URL}/api/email?userName=${contactForm.userName}&userEmail=${contactForm.userEmail}&userMsg=${contactForm.userMsg}`);
   }
     return(
         <>
