@@ -21,6 +21,8 @@ export default function Contact() {
       userEmail: e.target.userEmail.value,
       userMsg: e.target.userMsg.value
     };
+
+    //let message = `You have received a form submission: Name: ${contactForm.userName} Email: ${contactForm.userEmail} Message: ${contactForm.userMsg}`;
     await fetch(`https://my-portfolio-backend-chi.vercel.app/api/email?userName=${contactForm.userName}&userEmail=${contactForm.userEmail}&userMsg=${contactForm.userMsg}`);
   }
     return(
@@ -37,6 +39,8 @@ export default function Contact() {
             <button className="btn" type="submit">Send</button>
            </form>
          </div>
+
+         
         </>
     )
 }

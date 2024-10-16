@@ -42,17 +42,20 @@ const transporter = nodemailer.createTransport({
   }
 });
 console.log(request.query)
+
+let message = `You have received a form submission: send by ${request.query.userEmail} from ${request.query.userEmail} Message: ${request.query.userMsg}`;
+
 const emailData= {
   from: request.query.userEmail,
   to: "yutoarimori@gmail.com",
   subject: "Test Mail",
-  text: request.query.userMsg
+  text: message
 };
 transporter.sendMail({
   from: request.query.userEmail,
   to: "yutoarimori@gmail.com",
   subject: "Test Mail",
-  text: request.query.userMsg
+  text: message
 });
 response.json(emailData);
 });
