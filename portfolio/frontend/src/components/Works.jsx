@@ -18,7 +18,7 @@ return (
           {works.map((work) => (
               <div className="worksBox" key={work.id}>
                   <a href={work.url}>
-                  <img src={`/img/${work.img}`}/>
+                  <img className="workImg" src={`/img/${work.img}`}/>
                   </a>
                   <p>{work.explanation}</p>
               </div> //</div>worksBox

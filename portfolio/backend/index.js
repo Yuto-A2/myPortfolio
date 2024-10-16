@@ -44,7 +44,7 @@ const transporter = nodemailer.createTransport({
 console.log(request.query)
 const emailData= {
   from: request.query.userEmail,
-  to: "yutoarimori@gmail.com",
+  to: "yutoarimori@outlook.com",
   subject: "Test Mail",
   text: request.query.userMsg
 };
