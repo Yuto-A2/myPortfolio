@@ -50,7 +50,7 @@ const emailData= {
 };
 transporter.sendMail({
   from: request.query.userEmail,
-  to: "yutoarimori@gmail.com",
+  to: "yutoarimori@outlook.com",
   subject: "Test Mail",
   text: request.query.userMsg
 });
