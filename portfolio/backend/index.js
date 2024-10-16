@@ -44,13 +44,13 @@ const transporter = nodemailer.createTransport({
 console.log(request.query)
 const emailData= {
   from: request.query.userEmail,
-  to: "yutoarimori@outlook.com",
+  to: "yutoarimori@gmail.com",
   subject: "Test Mail",
   text: request.query.userMsg
 };
 transporter.sendMail({
   from: request.query.userEmail,
-  to: "yutoarimori@outlook.com",
+  to: "yutoarimori@gmail.com",
   subject: "Test Mail",
   text: request.query.userMsg
 });
