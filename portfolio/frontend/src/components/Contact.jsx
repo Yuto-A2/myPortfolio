@@ -30,12 +30,12 @@ export default function Contact() {
          <h2 className="subTitle">Contact</h2>
          <div className="contactForm">
            <form onSubmit={handleForm}>
-            <label htmlFor="">Name:</label>
-            <input name="userName" className="nameForm" type="text" />
-            <label htmlFor="">Email Address:</label>
-            <input name="userEmail" className="mailForm" type="email" />
-            <label htmlFor="">Message:</label>
-            <input name="userMsg" className="messageForm" type="text" />
+            <label htmlFor="userName">Name:</label>
+            <input name="userName" className="nameForm" type="text" id="userName" />
+            <label htmlFor="email">Email Address:</label>
+            <input name="userEmail" className="mailForm" type="email" id="email"/>
+            <label htmlFor="msg">Message:</label>
+            <textarea name="userMsg" className="messageForm" id="msg"></textarea>
             <button className="btn" type="submit">Send</button>
            </form>
          </div>
