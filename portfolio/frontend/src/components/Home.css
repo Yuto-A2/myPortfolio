@@ -38,7 +38,7 @@ body {
 /* banar image */
 #banar {
     width: 100%;
-    margin-left: 10px;
+    margin: 0;
 }
 
 /* Header h1 page title */
