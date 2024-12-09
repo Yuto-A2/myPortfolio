@@ -7,10 +7,7 @@ body {
     padding: 0;
     max-width: 1200px;
 }
-img {
-    max-width: 100%;
-    height: auto;
-  }
+
 
 @media screen and (max-width: 430px) {
     body{
@@ -40,8 +37,10 @@ img {
 
 /* banar image */
 #banar {
-    width: 100%;
-    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Header h1 page title */
@@ -91,6 +90,10 @@ img {
 @media screen and (max-width: 430px) {
     #main-navigation ul{
         flex-direction: column;
+    }
+
+    #banar {
+        max-width: 90%; /* 小さい画面では90%幅に縮小 */
     }
 }
 /* social media */
