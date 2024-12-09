@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     max-width: 1200px;
-    overflow-x: hidden;
 }
 
 
@@ -89,6 +88,10 @@ body {
 @media screen and (max-width: 430px) {
     #main-navigation ul{
         flex-direction: column;
+    }
+    #banar {
+        width: 100%;
+        margin: 0;
     }
 }
 /* social media */
