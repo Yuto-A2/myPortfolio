@@ -3,7 +3,7 @@ export default function Skills() {
     <>
       <h2 className="subTitle">Skills</h2>
       <div className="skillsContainer">
-        <div className="worksContainer">
+        <div className="workContainer">
           <p className="skillwords">HTML</p>
           <p className="skillwords">CSS</p>
           <p className="skillwords">Javascript</p>
