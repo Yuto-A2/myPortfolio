@@ -47,7 +47,7 @@ export default function Works() {
             }}
           >
             {works.map((work) => (
-              <div className="workContent" key={work.id}>
+              <div className="workContent" key={work._id}>
                 <a href={work.url}>
                   <img className="workImg" src={`/img/${work.img}`} alt={work.explanation} />
                 </a>

@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* common design */
 body {
+    display: flex;
+    justify-content: center;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     margin: 0;
     padding: 0;
     max-width: 1200px;
+    overflow-x: hidden;
 }
 
 
@@ -89,6 +92,12 @@ body {
     #main-navigation ul{
         flex-direction: column;
     }
+
+    #site-name {
+        display: flex;
+        align-items: center;
+        font-size: 1.2em;
+    }
 }
 /* social media */
 .socialMedia {
@@ -109,19 +118,20 @@ body {
 /* social media for smart phone screen */
 @media screen and (max-width: 430px) {
     .sns1 img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     .sns2 img{
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        justify-content: flex-end;
     }
 }
 
 
 /* h2 works */
 .carousel {
-    width: 80%;
+    /* width: 80%; */
     margin: 16px auto;
     position: relative;
 }
@@ -226,6 +236,14 @@ body {
     .currentCircle {
         display: none;
     }
+
+    .workContent p {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+    }
+
+  
 }
 
 /* h2 Service */
