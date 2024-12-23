@@ -249,7 +249,9 @@ body {
         margin-top: 8px;
     }
 
-  
+    .workContent img {
+    width: 95%;
+}
 }
 
 /* h2 Service */
