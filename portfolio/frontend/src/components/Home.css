@@ -442,7 +442,7 @@ body {
         height: 49px;
         margin-top: 9px;
         border: solid 1px black;
-        margin-left: 4%;
+        margin: auto 4%;
     }
     
     .messageForm {
@@ -450,7 +450,7 @@ body {
         height: 200px;
         margin-top: 9px;
         border: solid 1px black;
-        margin-left: 4%;
+        margin:auto 4%;
     }
 }
 
