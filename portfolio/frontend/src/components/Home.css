@@ -435,7 +435,7 @@ body {
         /* display: flex; */
         /* justify-content: start; */
         /* text-align: center; */
-        margin-left: 25%;
+        margin: auto 5%;
     }
     .nameForm, .mailForm{
         width: 274px;
