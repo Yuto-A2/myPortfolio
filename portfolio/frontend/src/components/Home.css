@@ -41,7 +41,7 @@ body {
 /* banar image */
 #banar {
     width: 100%;
-    margin-left: 10px;
+    margin: auto 4%;
 }
 
 /* Header h1 page title */
@@ -303,11 +303,11 @@ body {
         align-items: center;
     }
     .serviceExplain {
-        margin-left: 50px;
+        margin: auto 4%;
         max-width: 350px;
     }
     .serviceExplain2 {
-        margin-left: 50px;
+        margin: auto 4%;
         max-width: 350px;
     }
 }
@@ -319,11 +319,11 @@ body {
         align-items: center;
     }
     .serviceExplain {
-        margin-left: 30px;
+        margin: auto 4%;
         max-width: 200px;
     }
     .serviceExplain2 {
-        margin-left: 30px;
+        margin: auto 4%;
         max-width: 200px;
     }
 }
@@ -337,7 +337,7 @@ body {
 }
 
 .skillBoxStar {
-    margin-left: 20px;
+    margin: auto 4%;
 } 
 
 .skillBoxStar img {
@@ -354,7 +354,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 300px;
+    /* margin-left: 300px; */
 }
 
 .aboutExplain {
@@ -367,7 +367,7 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 30px;
+        margin: 30px;
     }
 }
 
@@ -376,15 +376,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20px;
+    margin: auto 4%;
 }
 
 .contactForm label {
     width: 950px; 
     text-align: left;
-}
-
-.contactForm label {
     display: flex;
     text-align: start;
 }
@@ -416,16 +413,16 @@ body {
     .contactForm label {
         width: 100%; 
         text-align: left;
-        margin-left: 80px;
+        margin: auto 4%;
     }
     .nameForm, .mailForm{
-        margin-left: 10px;
+        margin: 15px 4%;
         width: 663px;
         height: 49px;
     }
     
     .messageForm {
-        margin-left: 10px;
+        margin: 15px 4%;
         width: 663px;
         height: 200px;
     }
@@ -435,14 +432,14 @@ body {
     .contactForm label {
         width: 100%; 
         text-align: left;
-        margin-left: 80px;
+        margin: auto 4%;
     }
     .nameForm, .mailForm{
         width: 274px;
         height: 49px;
         margin-top: 9px;
         border: solid 1px black;
-        margin-left: 20px;
+        margin-left: 4%;
     }
     
     .messageForm {
@@ -450,7 +447,7 @@ body {
         height: 200px;
         margin-top: 9px;
         border: solid 1px black;
-        margin-left: 20px;
+        margin-left: 4%;
     }
 }
 
