@@ -1,7 +1,9 @@
 export default function Service () {
     return (
         <> 
-          <h2 className="subTitle">Service</h2>
+          <div className='headerTitle'>
+                <h2 className="subTitle">Service</h2>
+            </div>
           <div className="serviceContainer">
             <div className="service-box1">
               <p className="titleDesign">Design</p>
