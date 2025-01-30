@@ -123,6 +123,7 @@ body {
 
 .socialMedia a {
     text-decoration: none;
+    color: black;
 }
 
 .socialMedia a:hover, .socialMedia a:visited {
@@ -304,6 +305,10 @@ body {
     .serviceExplain2 {
         margin-left: 50px;
         max-width: 250px;
+    }
+
+    .service-box2 {
+        margin-bottom: 24px;
     }
 }
 

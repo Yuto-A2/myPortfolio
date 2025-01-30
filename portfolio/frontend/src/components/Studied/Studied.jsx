@@ -4,7 +4,7 @@ export default function Studied() {
     return (
         <>
             <div className='headerTitle'>
-                <h2 className="subTitle2">Why am I a good worker?</h2>
+                <h2 className="subTitle2">Why You Will Love Me</h2>
             </div>
             <div className="studyContainer">
                 <div className="studiedBox">
