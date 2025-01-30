@@ -1,0 +1,59 @@
+
+.subTitle2{
+    text-align: center;
+    padding-bottom: 8px;
+    position: relative;
+    display: block;  
+    width: fit-content;  
+    margin: 0 auto;  
+}
+
+.subTitle2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px; 
+    background-color: orange; 
+}
+
+.studyContainer {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 24px;
+}
+
+.studiedBox img{
+    width: 100%;
+    height: auto;
+}
+
+.studiedBox {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.studiedContent {
+    flex: 2;
+}
+
+@media screen and (max-width: 430px) {
+    .studyContainer{
+        flex-direction: column;
+    }
+    .studiedContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .subTitle3 {
+       margin: auto;
+    }
+}

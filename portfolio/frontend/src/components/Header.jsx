@@ -9,8 +9,8 @@ export default function Header() {
         </h1>
       </div> {/* titleBox */}
       <ul className="socialMedia">
-        <li className="sns1"><a href="https://github.com/Yuto-A2"><img src="/img/githublogo.png" alt="github icon" /></a></li>
-        <li className="sns2"><a href="https://www.linkedin.com/in/yarimori/"><img src="/img/linkedIn.png" alt="linkedin icon" /></a></li>
+        <li className="sns1"><a href="https://github.com/Yuto-A2"><i className="fa-brands fa-github  fa-3x icon"></i></a></li>
+        <li className="sns2"><a href="https://www.linkedin.com/in/yarimori/"><i class="fa-brands fa-linkedin fa-3x icon"></i></a></li>
       </ul>
       <Nav />
     </header>

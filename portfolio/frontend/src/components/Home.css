@@ -121,6 +121,14 @@ body {
     margin-right: 25px;
 }
 
+.socialMedia a {
+    text-decoration: none;
+}
+
+.socialMedia a:hover, .socialMedia a:visited {
+    color: inherit;
+}
+
 /* social media for smart phone screen */
 @media screen and (max-width: 430px) {
     .sns1 img{
@@ -131,6 +139,9 @@ body {
         width: 30px;
         height: 30px;
         justify-content: flex-end;
+    }
+    .socialMedia{
+        font-size: 1rem;
     }
 }
 
