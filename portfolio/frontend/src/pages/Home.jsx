@@ -1,6 +1,5 @@
 import {useEffect} from "react"
 import "../components/Home.css"
-import Service from "../components/Service"
 import Works from "../components/Works"
 import AboutComponent from "../components/AboutComponent"
 import Contact from "../components/Contact"
@@ -17,7 +16,6 @@ export default function Home() {
     <main id="main">
       <Banar />
       <Skills />
-      <Service />
       <Studied />
       <Works />
       <AboutComponent/>
