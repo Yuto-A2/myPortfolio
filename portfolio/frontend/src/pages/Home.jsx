@@ -6,6 +6,7 @@ import AboutComponent from "../components/AboutComponent"
 import Contact from "../components/Contact"
 import Banar from "../components/Banar"
 import Studied from "../components/Studied/Studied"
+import Skills from "../components/Skills"
 
 // homepage get components
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
   return(
     <main id="main">
       <Banar />
+      <Skills />
       <Service />
       <Studied />
       <Works />
