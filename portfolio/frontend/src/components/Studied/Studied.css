@@ -23,7 +23,32 @@
     border: 1px solid black;
     margin-top: 24px;
     background-color: #f6f6f6;
+    animation: fadeIn 1.5s 1s forwards;
+    opacity: 0;
 }
+
+#animation2 {
+    animation: fadeIn 1.5s 2s forwards;
+    opacity: 0;
+}
+
+#animation3 {
+    animation: fadeIn 1.5s 3s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 .studiedBox img{
     width: 100%;
