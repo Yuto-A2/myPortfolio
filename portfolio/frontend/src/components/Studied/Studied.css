@@ -27,13 +27,19 @@
     opacity: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+    .studiedContent {
+        color: black !important;
+    }
+}
+
 #animation2 {
-    animation: fadeIn 1.5s 2s forwards;
+    animation: fadeIn 1.5s 1.5s forwards;
     opacity: 0;
 }
 
 #animation3 {
-    animation: fadeIn 1.5s 3s forwards;
+    animation: fadeIn 1.5s 2s forwards;
     opacity: 0;
 }
 
