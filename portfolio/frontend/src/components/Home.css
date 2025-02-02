@@ -443,6 +443,12 @@ body {
     padding: 10px;
 }
 
+@media (prefers-color-scheme: dark) {
+    .aboutExplain {
+        color: black;
+    }
+}
+
 /* h2 about for smart phone */
 @media screen and (max-width: 820px) {
     .about {
