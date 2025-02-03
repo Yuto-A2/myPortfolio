@@ -49,7 +49,7 @@ export default function Works() {
 
   return (
     <>
-      <h2 className="subTitle">Works</h2>
+      <h2 className="subTitle">Projects</h2>
       <div className="clickInfo">
         <p>Click on the images to get more information.</p>
       </div>
