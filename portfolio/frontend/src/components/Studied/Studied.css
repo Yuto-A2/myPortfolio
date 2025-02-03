@@ -86,8 +86,6 @@
 @media screen and (max-width: 431px) {
     .studyContainer{
         flex-direction: column;
-        width: 100%;
-        max-width: 430px;
     }
     .studiedContent {
         display: flex;
@@ -99,17 +97,5 @@
 
     .subTitle3 {
        margin: auto;
-    }
-}
-
-@media screen and (max-width: 820px) {
-    .studyContainer{
-        flex-direction: column;
-        width: 100%;
-        max-width: 820px;
-    }
-
-    .studiedContent p {
-        padding: 8px;
     }
 }
