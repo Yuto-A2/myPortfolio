@@ -29,7 +29,7 @@
 
 @media (prefers-color-scheme: dark) {
     .studiedContent {
-        color: black;
+        color: #333;
     }
 }
 
