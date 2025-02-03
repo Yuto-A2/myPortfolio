@@ -20,14 +20,12 @@
 
 .studyContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
     border: 1px solid black;
-    margin-top: 24px;
+    margin: 5% auto;
     background-color: #f6f6f6;
     animation: fadeIn 1.5s 1s forwards;
     opacity: 0;
+    width: 95%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -82,9 +80,10 @@
     flex: 2;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 431px) {
     .studyContainer{
         flex-direction: column;
+        width: 100%;
     }
     .studiedContent {
         display: flex;
