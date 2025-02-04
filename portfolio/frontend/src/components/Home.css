@@ -364,6 +364,13 @@ body {
     }
 }
 
+
+@media (prefers-color-scheme: dark) {
+    .close {
+        color: black;
+    }
+}
+
 /* h2 Service */
 .serviceContainer {
     display: flex;
