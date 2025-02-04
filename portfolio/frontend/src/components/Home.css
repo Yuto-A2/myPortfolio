@@ -523,7 +523,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
     .aboutExplain {
-        color: #333;
+        color: white;
+        background-color: #444;
     }
 }
 

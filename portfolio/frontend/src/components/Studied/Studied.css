@@ -21,16 +21,21 @@
 .studyContainer {
     display: flex;
     border: 1px solid black;
-    margin: 5% auto;
+    margin: 2% auto;
     background-color: #f6f6f6;
     animation: fadeIn 1.5s 1s forwards;
     opacity: 0;
     width: 85%;
 }
 
+.studiedContent p {
+    padding: 16px;
+}
+
 @media (prefers-color-scheme: dark) {
     .studiedContent {
-        color: #333;
+        color: white;
+        background-color: #444;
     }
 }
 
