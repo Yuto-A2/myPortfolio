@@ -244,6 +244,12 @@ body {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .banar {
+        color: black;
+    }
+}
+
 /* navigation bar for smart phone */
 @media screen and (max-width: 430px) {
     #main-navigation ul {
@@ -659,7 +665,7 @@ body {
     margin-right: 50px;
 }
 
-.about {
+/* .about {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -670,7 +676,7 @@ body {
 .aboutExplain {
     background-color: #fcfcfc;
     padding: 10px;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
     .aboutExplain {
