@@ -660,9 +660,125 @@ body {
 } */
 
 /* h2 about */
+
+.aboutHeader {
+    text-align: center;
+}
+
+.aboutEducation{
+    text-align: center;
+}
+
 .profileImg {
     border-radius: 90px;
-    margin-right: 50px;
+}
+
+.aboutPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.year {
+    width: 50%;
+    background-color: #f2f2f2;
+    font-size: 0.8em;
+}
+
+.year p {
+    margin-bottom: -16px;
+}
+
+.textExplain li {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 431px) {
+    .aboutPhoto {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .profileImg {
+        margin-top: -40px;
+    }
+
+    .aboutHeader {
+        margin-top: -16px;
+    }
+
+    .year {
+        margin-bottom: 8px;
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .textExplain li {
+        margin-top: 16px;
+    }
+}
+
+.row {
+    margin-bottom: -16px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.aboutExplain {
+    display: flex;
+    align-items: stretch; 
+    gap: 20px; 
+  }
+  
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .circle {
+    border: solid black 1px;
+    border-radius: 50%; 
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .line {
+    flex-grow: 1;        
+    width: 2px;           
+    background-color: black;
+    margin-top: 0;      
+  }
+  
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;            
+  }
+  
+  .textExplain ul {
+    margin: 0;
+    padding-left: 20px;  
+  }
+
+  .positionBox {
+    font-size: 10px;
+    font-weight: 100;
+    color: #999;
+  }
+  @media screen and (max-width: 431px) {
+    .positionBox {
+        font-size: 8px;
+      }
 }
 
 /* .about {
@@ -672,6 +788,8 @@ body {
     width: 85%;
     margin-top: 16px;
 }
+
+
 
 .aboutExplain {
     background-color: #fcfcfc;
