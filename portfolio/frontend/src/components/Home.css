@@ -665,6 +665,11 @@ body {
     text-align: center;
 }
 
+.aboutContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .aboutEducation{
     text-align: center;
 }
@@ -681,7 +686,7 @@ body {
 }
 
 .year {
-    width: 50%;
+    width: 40%;
     background-color: #f2f2f2;
     font-size: 0.8em;
 }
@@ -716,6 +721,10 @@ body {
 
     .textExplain li {
         margin-top: 16px;
+    }
+
+    .aboutContainer {
+        width: 100%;
     }
 }
 
